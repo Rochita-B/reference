@@ -1,0 +1,14 @@
+Github login
+
+Feature: opening of an account
+scenario: when an user opts for this option he/she will be able to register himself/herself as a registered user by filling a registration form containing
+all details of that user.
+
+Given: User is on the index Page of the website for GitHub.
+
+When:  User wants to register himself
+
+Then:		The Users' database will be updated with the details of the user.
+----------------------------------------------------------------------------------------
+GitHub registration:
+Feature: 

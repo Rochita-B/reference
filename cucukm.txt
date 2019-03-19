@@ -1,0 +1,45 @@
+BANKING SYSTEM
+
+
+Feature:	Opening of Account
+
+Scenario:	When a user proceeds for this option, he/she will be able to register himself/herself as a customer 
+			by filling up a registration form,which contains the personal details as well as the type of account he/she wants to open and the initial balance.
+			
+Given:		User is on the index Page of the website for the banking system.
+
+When:		User wants to register as a customer
+
+Then:		The Customers' database will be updated with the details of the customer.
+
+------------------------------------------------------------------------------------------------
+Feature:	Retrieval of details of an Account / all details
+
+Scenario:	When a user proceeds for this option, he/she will be able to get the account details by providing the account number in the search page.
+
+			When an admin proceeds for this option, he will be able to get details of every customer in a single table.
+			
+Given:		User is on the search Page of the AccountDetails for the banking system.
+			Admin is on the search Page of the AccountDetails for the banking system.
+
+
+When:		User wants to get his/her bank details.
+			Admin wants to check the customers details.
+
+Then:		The details will be retrieved from the database.
+
+------------------------------------------------------------------------------------------------
+Feature:	Transactions 
+
+Scenario:	When a user proceeds for this option, he/she will be able to withdraw,deposit or fund transfer amount form his account.
+
+			When a user proceeds for this option, the database checks the requirements for the operation.Like if the given account number is a valid one or not, whether there
+			is sufficient balance in the account to initiate the transaction etc.After completion of the transaction, the databases get updated.
+			
+Given:		User is on the Transaction Page of the AccountDetails for the banking system.
+
+
+When:		User wants to do a transaction with his/her account.
+
+Then:		The details will be retrieved from the database.
+------------------------------------------------------------------------------------------------
